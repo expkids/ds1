@@ -113,15 +113,6 @@
             "ext": "http://z.kzjtv.com/"
         },
         {
-            "key": "大米星球",
-            "name": "大米｜APP",
-            "type": 3,
-            "api": "csp_AppDaMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "笙歌影视",
             "name": "笙歌｜APP",
             "type": 3,
@@ -239,14 +230,6 @@
             "changeable": 1
         },
         {
-            "key": "明日影视",
-            "name": "明日｜影视",
-            "type": 3,
-            "api": "csp_WexMingriys",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "腐剧视频",
             "name": "腐剧｜视频",
             "type": 3,
@@ -328,15 +311,6 @@
             "filterable": 0
         },
         {
-            "key": "看看影视",
-            "name": "看看｜影视",
-            "type": 3,
-            "api": "csp_WebIV",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
             "key": "视频库",
             "name": "视频库｜影视",
             "type": 3,
@@ -394,13 +368,6 @@
             "ext": "./XYQHiker/电影牛.json"
         },
         {
-            "key": "爱奇艺",
-            "name": "爱奇艺｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/爱奇艺.js"
-        },
-        {
             "key": "三六零",
             "name": "三六零｜视频",
             "type": 3,
@@ -455,13 +422,6 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/哔哩视频.js"
-        },
-        {
-            "key": "碟调影视",
-            "name": "碟调｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/碟调影视.js"
         },
         {
             "key": "欧帝影院",
@@ -778,19 +738,6 @@
             "ext": "./JS/暮暮动漫.js"
         },
         {
-            "key": "南瓜弹幕",
-            "name": "南瓜｜弹幕",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;79f4aaa5e0117750d0b141bbd90a260d"
-        },
-        {
             "key": "厂长弹幕",
             "name": "厂长｜弹幕",
             "type": 3,
@@ -938,57 +885,6 @@
             "jar": "./danmu.jar;md5;79f4aaa5e0117750d0b141bbd90a260d"
         },
         {
-            "key": "玩偶弹幕",
-            "name": "玩偶哥哥｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wogg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "wogg": true,
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;79f4aaa5e0117750d0b141bbd90a260d"
-        },
-        {
-            "key": "玩偶备用弹幕",
-            "name": "玩偶备用｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://wogg.xxooo.cf",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;79f4aaa5e0117750d0b141bbd90a260d"
-        },
-        {
-            "key": "夸克玩偶弹幕",
-            "name": "玩偶表哥｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "http://wobgg.run-us-west2.goorm.io",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;79f4aaa5e0117750d0b141bbd90a260d"
-        },
-        {
             "key": "夸克土豆弹幕",
             "name": "土豆｜4K弹幕",
             "type": 3,
@@ -1000,22 +896,6 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "site": "https://tudou.lvdoui.top",
-                "danmu": true
-            },
-            "jar": "./danmu.jar;md5;79f4aaa5e0117750d0b141bbd90a260d"
-        },
-        {
-            "key": "夸克多多弹幕",
-            "name": "多多｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://tv.yydsys.top",
                 "danmu": true
             },
             "jar": "./danmu.jar;md5;79f4aaa5e0117750d0b141bbd90a260d"
