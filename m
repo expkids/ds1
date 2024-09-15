@@ -1821,7 +1821,7 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://ghproxy.com/https://raw.githubusercontent.com/BryanHK/disc/main/live.txt",
+            "url": "https://ghproxy.com/https://raw.githubusercontent.com/expkids/disc/main/live.txt",
             "playerType": 1,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
