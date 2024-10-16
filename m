@@ -1,5 +1,5 @@
 {
-    "spider": "./spider.jar;md5;c52fb9e051491089b007fea2b3109ee8",
+    "spider": "./spider.jar;md5;5373bfbbb0b009366ffcc5cf6b4ead5d",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
@@ -953,6 +953,18 @@
             }
         },
         {
+            "key": "热播弹幕",
+            "name": "热播｜弹幕",
+            "type": 3,
+            "api": "csp_ReBo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
             "key": "文才弹幕",
             "name": "文才｜弹幕",
             "type": 3,
@@ -963,6 +975,23 @@
             "ext": {
                 "danmu": true
             }
+        },
+        {
+            "key": "哔哩弹幕",
+            "name": "哔哩｜弹幕",
+            "type": 3,
+            "api": "csp_Bilimd",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
+            },
+            "timeout": 10
         },
         {
             "key": "立播弹幕",
@@ -1110,8 +1139,8 @@
             }
         },
         {
-            "key": "夸克玩偶弹幕",
-            "name": "玩偶表哥｜4K弹幕",
+            "key": "夸克欧歌弹幕",
+            "name": "欧哥｜4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -1121,7 +1150,8 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "http://wobgg.run-us-west2.goorm.io",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://woog.nxog.eu.org",
                 "danmu": true
             }
         },
@@ -1692,9 +1722,9 @@
             }
         },
         {
-            "name": "推荐2",
+            "name": "推荐4K",
             "type": 1,
-            "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
+            "url": "http://jx.jwl.icu/jx.php?url="
         },
         {
             "name": "线路1",
@@ -1950,12 +1980,6 @@
             "name": "直播3",
             "type": 0,
             "url": "https://tv.iill.top/m3u/Gather",
-            "playerType": 1
-        },
-        {
-            "name": "直播4",
-            "type": 0,
-            "url": "http://mmitv.top/pltv/merization.php?id=list&user=t0k1b5&token=17af41bb&text=diypbox",
             "playerType": 1
         }
     ],
