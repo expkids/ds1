@@ -1,5 +1,5 @@
 {
-    "spider": "./spider.jar;md5;5373bfbbb0b009366ffcc5cf6b4ead5d",
+    "spider": "./spider.jar;md5;a81afc9c6a39cbd3de57dd8fca9031e3",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
@@ -135,14 +135,14 @@
             "ext": "https://www.tvkuys.xyz/api.php/app/"
         },
         {
-            "key": "丘丘影视",
-            "name": "丘丘｜APP",
+            "key": "新感觉",
+            "name": "新感觉｜APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://111.173.115.204:2211/api.php/app/"
+            "ext": "http://43.248.100.147:9892/api.php/app/"
         },
         {
             "key": "南瓜影视",
@@ -200,16 +200,6 @@
             "changeable": 1
         },
         {
-            "key": "忍者影视",
-            "name": "忍者｜APP",
-            "type": 3,
-            "api": "csp_AppRZ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://rzys.xyz/"
-        },
-        {
             "key": "采集之王",
             "name": "采集｜合集",
             "type": 3,
@@ -246,10 +236,10 @@
             "filterable": 1
         },
         {
-            "key": "啾啾影视",
-            "name": "啾啾｜影视",
+            "key": "农民影视",
+            "name": "农民｜影视",
             "type": 3,
-            "api": "csp_Jiohub",
+            "api": "csp_Nmys",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -286,16 +276,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://fm666.qkw1.cc"
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_Nongm",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "ext": "https://888.qkw2.cc"
         },
         {
             "key": "看客影视",
@@ -304,19 +285,11 @@
             "api": "csp_Kanke",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": "https://www.kmeiju.com"
         },
         {
-            "key": "爱看影视",
-            "name": "爱看｜影视",
-            "type": 3,
-            "api": "csp_Ikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "瓜子｜影视",
+            "key": "瓜子影视",
             "name": "瓜子｜影视",
             "type": 3,
             "api": "csp_Gz360",
@@ -349,13 +322,23 @@
             "api": "csp_FreeOK",
             "searchable": 1,
             "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://www.freeok.lol"
+        },
+        {
+            "key": "奇优影视",
+            "name": "奇优｜影视",
+            "type": 3,
+            "api": "csp_Qiyou",
+            "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1
         },
         {
-            "key": "兄弟影视",
-            "name": "兄弟｜影视",
+            "key": "骚火影视",
+            "name": "骚火｜影视",
             "type": 3,
-            "api": "csp_Xdys",
+            "api": "csp_SaoHuo",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -380,21 +363,13 @@
             "ext": "https://vidhub1.cc"
         },
         {
-            "key": "达达龟",
-            "name": "达达龟｜影视",
-            "type": 3,
-            "api": "csp_Dadag",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "素白白",
             "name": "素白白｜影视",
             "type": 3,
             "api": "csp_Subaibai",
             "searchable": 1,
-            "changeable": 1
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "小苹果",
@@ -965,6 +940,18 @@
             }
         },
         {
+            "key": "糯米弹幕",
+            "name": "糯米｜弹幕",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
             "key": "文才弹幕",
             "name": "文才｜弹幕",
             "type": 3,
@@ -1010,6 +997,48 @@
             }
         },
         {
+            "key": "完美弹幕",
+            "name": "完美｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/完美弹幕.js"
+        },
+        {
+            "key": "悠悠弹幕",
+            "name": "悠悠｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/悠悠弹幕.js"
+        },
+        {
+            "key": "星河弹幕",
+            "name": "星河｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/星河弹幕.js"
+        },
+        {
+            "key": "小熊弹幕",
+            "name": "小熊｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/小熊弹幕.js"
+        },
+        {
+            "key": "巨人弹幕",
+            "name": "巨人｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/巨人弹幕.js"
+        },
+        {
+            "key": "小虎斑弹幕",
+            "name": "小虎斑｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/小虎斑弹幕.js"
+        },
+        {
             "key": "三六零弹幕",
             "name": "三六零｜弹幕",
             "type": 3,
@@ -1038,18 +1067,6 @@
             "name": "小苹果｜弹幕",
             "type": 3,
             "api": "csp_Xpg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "一起看弹幕",
-            "name": "一起看｜弹幕",
-            "type": 3,
-            "api": "csp_Yqk",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1092,17 +1109,6 @@
             "filterable": 1,
             "ext": {
                 "site": "https://www.yjys05.com",
-                "danmu": true
-            }
-        },
-        {
-            "key": "不太灵弹幕",
-            "name": "不太灵｜弹幕",
-            "type": 3,
-            "api": "csp_Bt0",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
                 "danmu": true
             }
         },
@@ -1261,20 +1267,6 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://mogg.top",
-                "danmu": true
-            }
-        },
-        {
-            "key": "夸克团长弹幕",
-            "name": "团长｜4K弹幕",
-            "type": 3,
-            "api": "csp_Tzfile",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "danmu": true
             }
         },
@@ -1671,6 +1663,16 @@
             }
         },
         {
+            "key": "短剧合集",
+            "name": "短剧｜合集",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/短剧合集.js",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "push_agent",
             "name": "手机｜推送",
             "type": 3,
@@ -1722,9 +1724,37 @@
             }
         },
         {
-            "name": "推荐4K",
-            "type": 1,
-            "url": "http://jx.jwl.icu/jx.php?url="
+            "name": "臻享",
+            "type": "1",
+            "url": "http://43.248.100.147:6068/KEY/XGJ/root/key/70.php?url=",
+            "ext": {
+                "flag": [
+                    "youku",
+                    "qq",
+                    "qiyi",
+                    "bilibili",
+                    "mgtv",
+                    "pptv",
+                    "xigua",
+                    "NBY",
+                    "ETH-",
+                    "BBA",
+                    "TX",
+                    "MXTV",
+                    "mytv",
+                    "nmys",
+                    "yhdm",
+                    "BNNB",
+                    "letu",
+                    "DJWB",
+                    "DJWX",
+                    "DJWT",
+                    "duanju"
+                ],
+                "header": {
+                    "User-Agent": "Dalvik/2.1.0"
+                }
+            }
         },
         {
             "name": "线路1",
@@ -1850,18 +1880,6 @@
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:2\\.4,[\\s\\S]*?#EXT-X-DISCONTINUITY",
                 "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
-            "name": "一起看广告",
-            "hosts": [
-                "yqk88"
-            ],
-            "regex": [
-                "18.4",
-                "15.1666",
-                "16.5333",
-                "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
             ]
         },
         {
