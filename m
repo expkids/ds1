@@ -4,14 +4,14 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣｜首页",
+            "name": "暂停｜维护",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "预告",
-            "name": "新片｜预告",
+            "name": "Q群｜960349207",
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
@@ -1220,7 +1220,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "http://labipan.com",
+                "site": "http://duopan.fun",
                 "danmu": true
             }
         },
